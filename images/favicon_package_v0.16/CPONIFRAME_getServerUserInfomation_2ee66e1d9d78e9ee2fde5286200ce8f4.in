@@ -1,3 +1,0 @@
-<version>
-<?cp StatsBar::stat([${name}]${value}[/${name}], name,value) display=mysqlversion|perlversion|phpversion ?>
-</version>
