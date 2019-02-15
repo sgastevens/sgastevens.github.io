@@ -299,7 +299,7 @@ ul.social-share li a:hover {
 }
 
 .navbar-fixed-top .navbar-nav .dropdown-menu {
-  background-color: rgba(0,0,0,.85);
+  background-color: #A32638;
   -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
   -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
