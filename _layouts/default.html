@@ -112,17 +112,15 @@
     </header>
     <!--/header-->
 
-    <div>
+    <main>
         {{ content }}
-    </div>
+    </main>
 
     <footer id="footer" class="midnight-blue">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <p><small>&copy;
-                            <script>document.write(new Date().getFullYear());</script> Stevens Student Government
-                            Association | Design: <a href="https://jasonbuckman.com" target="_blank">Jason Buckman</small></a></p>
+                    <p><small>&copy; <span id="year"></span> Stevens Student Government Association</small></a></p>
                 </div>
             </div>
         </div>
@@ -132,6 +130,9 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://unpkg.com/jquery@3/dist/jquery.js"></script>
     <script src="https://unpkg.com/bootstrap@3/dist/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear()
+    </script>
 </body>
 
 </html>
