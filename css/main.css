@@ -1,15 +1,30 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
 
-
-/*************************
-*******Typography******
-**************************/
+html {
+  height: 88.8%;
+}
 
 body {
   background: #fff;
-  font-family:'Open Sans', Arial, sans-serif;
-  color:#333;
-  line-height:1.6em;
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #333;
+  line-height: 1.6em;
+  min-height: 100%;
+  padding-bottom: 6rem;
+  position: relative;
+}
+
+main {
+  margin-top: 89px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1em;
+  color: #fff;
+  background: #000;
 }
 
 h1,
@@ -1853,32 +1868,6 @@ ul.sidebar-gallery {
 
 #bottom .widget {
   margin-bottom: 0;
-}
-
-#footer {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  color: #fff;
-  background: #000;
-}
-
-#footer a {
-  color: #fff;
-}
-
-#footer a:hover {
-  color: #519fec;
-}
-
-#footer ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#footer ul > li {
-  display: inline-block;
-  margin-left: 15px;
 }
 
 .sgalogo {
